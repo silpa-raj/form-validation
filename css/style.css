@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/tr_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.main {
+	min-height: 100vh;
+}
+.head {
+	height: 80vh;
+}
+h4 {
+	color: red;
+}
+label::after {
+	content: "*";
+	color: red;
+}
+
+@media screen and (max-width: 576px) {
+	body {
+		background-color: azure;
+		background-image: none;
+	}
+}
